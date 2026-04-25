@@ -16,24 +16,30 @@
 <body>
     <div class="weather-app">
         <header>
-            <form>
-                <input type="search" placeholder="Enter a city ..." required />
-                <input type="submit" value="Search" />
+            <form class="search-form">
+                <input type="search" placeholder="Enter a city ..." required class="search-form-input" />
+                <input type="submit" value="Search" class="search-form-button" />
             </form>
         </header>
         <main>
-            <div>
-                <h1>
-                    Johannesburg
-                </h1>
-                <p>
-                    Saturday 22:02, scaterred clouds
-                    <br />
-                    Humidity: 84%, Wind: 3.13km/h
-                </p>
+            <div class="weather-app-data">
+                <div>
+                    <h1 class="weather-app-city">
+                        Johannesburg
+                    </h1>
+                    <p class=" weather-app-details">
+                        Saturday 22:02, scaterred clouds
+                        <br />
+                        Humidity: <span class="weather-app-numbers">84%</span>, Wind: <span
+                            class="weather-app-numbers">3.13km/h</span>
+                    </p>
+                </div>
+                <div class="weather-app-temp-container">
+                    <div class="weather-class-icon">⛅</div>
+                    <div class="weather-app-value">13</div>
+                    <div class="weather-app-unit"> °C</div>
+                </div>
             </div>
-            <div>⛅13 °C</div>
-
         </main>
 
         <footer>This project was coded by <a href="https://github.com/lesegokgatle" target="_blank"></a>Lesego
