@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f0f7;
+  background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
   font-family: "Roboto", sans-serif;
 }
 
@@ -95,8 +95,10 @@ main {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temps {
